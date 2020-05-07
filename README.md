@@ -10,7 +10,7 @@ Some of the changes I included are:
 * Blog posts include the date, reading time, alternative sites where it's published, and tags
 
 <p align="center">
-  <img src="readme/blog_headers.png" style="max-width:500px"/>
+  <img src="readme/blog_headers.png" width="500"/>
 </p>
 
 ![blog headers](readme/blog_headers.png)
