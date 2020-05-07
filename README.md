@@ -10,23 +10,28 @@ Some of the changes I included are:
 * Blog posts include the date, reading time, alternative sites where it's published, and tags
 
 <p align="center">
-  <img src="readme/blog_headers.png" width="500"/>
+  <img src="readme/blog_headers.png" width="600"/>
 </p>
-
-![blog headers](readme/blog_headers.png)
 
 * If published on alternative sites, blog posts include a message instructing readers to leave their comments on those sites (I didn't want multiple simultaneous comment streams)
 
-![blog comments](readme/blog_comments.png)
+<p align="center">
+  <img src="readme/blog_comments.png" width="600"/>
+</p>
 
 * There's an "image" [shortcode](https://gohugo.io/content-management/shortcodes/) that will read images from the `resources` section in the front matter and render it together with a caption (if any), like so `{{< image "name" >}}`
 
-![image shortcode](readme/image_shortcode.png)
+<p align="center">
+  <img src="readme/image_shortcode.png" width="600"/>
+</p>
 
 
 * There's a "stackshare" [shortcode](https://gohugo.io/content-management/shortcodes/) that will embed a [stackshare](https://stackshare.io/) stack by ID, like so: `{{< stackshare name="schoolhouse-io/complete-stack" id="8ec5a39a9e997d800b44464b5f7e53" >}}`
 
-![stackshare shortcode](readme/stackshare_shortcode.png)
+<p align="center">
+  <img src="readme/stackshare_shortcode.png" width="600"/>
+</p>
+
 
 
 * Added an RSS template that renders the whole content of a post, allowing readers to read it fully from an RSS feed reader application, and linked to the RSS feed in the footer.
